@@ -29,7 +29,7 @@ Matplotlib 3.11.1, and QuTiP 5.3.1 (OpenBLAS 0.3.34).
 | `make_figures.py` | Figs. 1–5 (written to `figs/`) | ~25 s |
 | `table_lindblad.py` | Table II (full Lindblad simulations) | ~20 s |
 | `staircase.py` | δφ(t) along the whole evolution: on the locus it takes only the values 0 and ±π, with ±π during 0.07% of the time for N = 3 (Sec. *Numerical verification*) | ~1 s |
-| `checks/` | Extended verification of the analytical results (see below) | ~15 min |
+| `checks/` | Extended verification of the analytical results (see below) | ~5 min |
 
 ```bash
 python make_figures.py                     # all paper figures
@@ -75,7 +75,7 @@ run from inside `checks/`.
   the staircase of δφ(t).
 - `check_dephasing.py`: pure dephasing, classical frequency noise and
   non-protected dissipators, which back the "preliminary numerical checks"
-  mentioned in the paper (~12 min).
+  mentioned in the paper (~4 min).
 
 ## Numerical notes
 
