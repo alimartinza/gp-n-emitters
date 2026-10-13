@@ -1,5 +1,7 @@
 # Chiral symmetry for geometric phase protection in the nonlinear Tavis-Cummings model — code
 
+This repo is a minimal working copy of a much larger and disorganized project. Thus, the code and figures are all copies made with IA. 
+
 Numerical code accompanying
 
 > A. Martin Zynda, P. I. Villar, F. C. Lombardo,
